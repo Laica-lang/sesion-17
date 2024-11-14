@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jose jorge Vega Sierra</h1>
+    </header>
+    <section>
+        <button onclick="mostrarMensaje()">Bienvenidos!!!</button>
+        <h2>Biografía</h2>
+        <div class="container">
+             <img src="giga.jpg" alt="yo">
+            <p>Soy Jose Jorge, un apasionado estudiante de Ingeniería Electrónica que actualmente estoy haciendo un curso de programación en Talento Tech. Desde una edad temprana, he mostrado un gran interés por la tecnología y la innovación, lo que me llevó a elegir esta carrera. En Talento Tech, estoy adquiriendo conocimientos basicos en lenguajes de programación como Python, JavaScript y HTML, y estoy trabajando en proyectos prácticos que me proporcionan una valiosa experiencia en el mundo real. Con habilidades en diseño y análisis de circuitos electrónicos, y una fuerte capacidad para resolver problemas, estoy decidido a contribuir al desarrollo de tecnologías que mejoren la vida de las personas y a seguir creciendo en mi campo profesional. </p>
+        </div>
+       
+    </section>
+    <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="contenedorlista">
+            <ul>
+                <li class="listaimg">HTML, CSS, JavaScript
+                    <p>nivel basico</p>
+                    <img src="habilidad.jpg" alt="habilidad html,css,js">
+                
+                </li>    
+                <li class="listaimg">VHDL
+                    <p style="text-indent: 125px">nivel basico</p>
+                    <img src="VHDL.jfif" alt="VHDL">
+                </li>
+                <li class="listaimg">C++
+                    <p style="text-indent: 102px">nivel basico</p>
+                    <img src="C.png" alt="C++" id="clog">
+                </li>
+                <li class="listaimg">Matlab
+                    <p style="text-indent: 110px">nivel basico</p>
+                    <img src="MATLAB.png" alt="MATLAB">
+                </li>
+            </ul>
+        </div>
+        
+    </section>
+    <section>
+        <h2>Contacto</h2>
+        <div class="containerform">
+            <form>
+                <label>Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                <label>Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo electronico" required>
+                <br>
+                <br>
+                <label>Comentario a dejar:</label>
+                <br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe aquí tu comentario..."></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Contáctame: &copy - <a href="mailto:josejorge.vegasierra@gmail.com">Jose Jorge Vega Sierra</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
